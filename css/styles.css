@@ -1,0 +1,249 @@
+body {
+  background-color: black;
+}
+/* NAVIGATIONAL BAR SETTINGS */
+
+.navigationLinks a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: grey;
+}
+
+
+
+a:hover {
+  color: #54000A;
+
+}
+.aa:hover {
+  color: white;
+}
+
+
+.navigationalBar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 20;
+}
+
+.row {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.col-4 {
+  margin: 0;
+  padding: 0;
+}
+
+.navigationLinks {
+  margin: auto 0;
+}
+
+
+.navigatinalLogo {
+  height: 45px;
+  margin: 10px 0 10px 30px;
+  left: 0;
+}
+
+.navigatinalLogoMobile {
+  height: 35px;
+  margin: 10px 0;
+}
+
+.navigationalBarMobile {
+  height: 50px;
+  background-color: grey;
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 44;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 15px 0 0 0;
+}
+
+.fa {
+  color: white;
+}
+
+/* TOP VIEW SETTINGS */
+.topViewBackground {
+  margin-top: 70px;
+  padding-bottom: 100px;
+  background-image: linear-gradient( 180deg,white,white, #909090, #909090);
+
+}
+
+.pageView {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.spectrumView {
+  width: 100%;
+}
+
+.topView {
+  padding: 100px 50px 0;
+}
+
+.topView h1 {
+  font-size: 3rem;
+}
+
+.col-sm-6 {
+  margin: auto 0;
+}
+
+/* Middle Container */
+.middleContainer {
+  background-color: black;
+  width: 100%;
+  padding: 60px 0;
+  color: white;
+}
+
+.middle {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+}
+
+.middleContainer h3 {
+  font-weight: bolder;
+}
+
+/* Third Container */
+.thirdContainer {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+
+
+}
+
+.third {
+  position: relative;
+  max-width: 1300px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.col-md-8 {
+  width: 50%;
+}
+
+.me {
+  width: 30%;
+  position: relative;
+  z-index: 9;
+  margin-top: -100px;
+}
+.mee {
+  width: 20%;
+  position: absolute;
+  z-index: 10;
+  margin-top: 0px;
+  margin: 0 25%;
+}
+
+.bio {
+  padding: 30px 0;
+}
+
+.third .col-4 {
+  position: relative;
+  z-index: +1;
+  top: -50;
+}
+.topTransition {
+  position: relative;
+  z-index: 2;
+  margin-top: -10px;
+  padding-top: 0;
+}
+
+@media (max-width: 500px) {
+
+  .mobileOnly {
+    display: block;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .topViewBackground {
+    margin-top: 50px;
+
+  }
+
+  .topView {
+    padding: 70px 20px 0;
+  }
+
+  .spectrumView {
+    padding-top: 50px;
+  }
+
+  .me {
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    margin-top: 0px;
+  }
+
+  .meee {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+
+}
+
+
+
+
+@media (min-width: 501px) {
+
+.mobileOnly {
+  display: none;
+}
+
+.desktopOnly {
+  display: block;
+}
+}
+
+
+
+
+
+
+
+
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
